@@ -11,7 +11,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font: inherit;
     vertical-align: baseline;
     box-sizing: border-box;
-}	
+}   
   
   body, input, select, textarea {
     font-family: "Scope One", serif;
@@ -23,6 +23,11 @@ body {
     background-color:fff;
     color: #999999;
 }
+
+body{
+  overflow-x: hidden  
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
@@ -62,10 +67,10 @@ a {
     text-decoration: none;
 }
 .banner{
-	display:flex;
-	padding:8em 0 6em 0;
-	align-items: center;
-	justify-content: center;
+    display:flex;
+    padding:8em 0 6em 0;
+    align-items: center;
+    justify-content: center;
     background-image: url(images/banner.jpg);
     background-position: center;
     background-size: cover;
@@ -95,6 +100,7 @@ a {
     width: 100%;
     z-index: 1;
 }
+
 .banner h1{
 
     display: block;
@@ -136,14 +142,14 @@ p {
     margin: 0 0 2em 0;
 }
 .big-button{
-	width:100%;
-	background-color: #3498db;
-	color:white;
-	height: 1.1em;
-	padding: 0.8em;
-	border-radius: 0.3em;
-	text-decoration: none;
-	font-size: 1.3em;
+    width:100%;
+    background-color: #3498db;
+    color:white;
+    height: 1.1em;
+    padding: 0.8em;
+    border-radius: 0.3em;
+    text-decoration: none;
+    font-size: 1.3em;
 
 }
 
@@ -161,7 +167,7 @@ p {
 }
 .wrapper .inner {
     margin: 0 auto;
-    width: 90%;
+    width:80%;
     position: relative;
     z-index: 99;
 }
@@ -184,9 +190,9 @@ p {
 }
 
 .flex-2{
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	/*border: 1px solid red;*/
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /*border: 1px solid red;*/
 }
 /*.flex.flex-2 .col.col1 {*/
     /*width: 30%;*/
@@ -196,33 +202,33 @@ p {
 /*}*/
 
 .image {
-	display:flex;
-	height:20rem;
-	justify-content: center;
-	/*margin-left: 5em;*/
+  display:flex;
+    justify-content: center;
     border: 0;
-    /*display: inline-block;*/
     position: relative;
     box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    height:320px;
+    width:320px;
+
 }
 
 .col1 {
-	padding-right: 5rem;
+    padding-right: 5rem;
     /*justify-content: center;*/
     margin-top: 1rem;
  
  } 
 
 .image img{
-	width:100%;
+    width:100%;
     border-radius: 50%;
     height: 100%;
     display: block;
 }
 .flex .col2{
-	padding-left:2rem;
-	/*padding-right: 2rem;*/
+    /*padding-left:2rem;*/
+    /*padding-right: 2rem;*/
 }
 
 .wrapper. a {
@@ -253,7 +259,6 @@ color:white;
 
 .image2 {
      display:flex;
-    height:20rem;
     justify-content: center;
     margin-left: 5em;
     border: 0;
@@ -261,6 +266,8 @@ color:white;
     position: relative;
     box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    height:350px;
+    width:350px;
 }
 
     /*padding-left: 5rem;*/
@@ -303,9 +310,8 @@ color:#3498db;
 .align-center{
     text-align: center;
 }
-
 .button2{
-height:20px; 
+height:15px; 
  width:100px; 
  margin: -30px -50px; 
 position:relative;
@@ -321,12 +327,14 @@ color:white;
     display:flex;
     height:20rem;
     /*justify-content: center;*/
-    margin-left: 5em;
+    /*margin-left: 5em;*/
     border: 0;
     /*display: inline-block;*/
     position: relative;
     box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    height:300px;
+    width:300px;
 }
 
 
